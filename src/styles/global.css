@@ -499,16 +499,15 @@ header a {
   h2
   {
 
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
   .mb-menu {
     top: 100px;
     width: 155px;
     justify-content: end;
 }
-  h1 {
-    font-size: 40px;
-}
+  
+   
 .mb-gap-cols
 {
         grid-template-columns: repeat(1, minmax(0, 1fr));
