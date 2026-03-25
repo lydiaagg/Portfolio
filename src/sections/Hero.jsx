@@ -6,6 +6,7 @@ import Autolumiere from "../assets/Auto-lumiere.png"
 import Pigier from "../assets/Pigier.png"
 import SmiledEvents from "../assets/Smiled-Events.png"
 import Marketing from "../assets/Marketing-Digital-Sites-Web-Reseaux-Sociaux-Publicite-Display.png"
+import { motion } from "framer-motion";
 
 
 export default function Hero() {
@@ -23,26 +24,28 @@ export default function Hero() {
             Full Stack Developer (Laravel & JavaScript) | Software Engineer<span className="text-green"> Passionate about AI & Data Science</span>
           </h1>
 
-          <p className="text-black text-lg leading-relaxed">
+          <p className="text-black text-md leading-relaxed">
             Conception et programmation d’applications interactives,
             comme des plateformes de réservation, des marketplaces
             ou des réseaux sociaux.
           </p>
 
           <div className="flex gap-4">
-            <a
+            <motion.a
               href="#contact"
-              className="bg-green text-black font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-lg"
-            >
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="inline-block bg-black text-white font-semibold px-6 py-3 rounded-lg shadow-lg"            >
               Contactez-moi
-            </a>
+            </motion.a>
 
-            <a
+            <motion.a
               href="#portfolio"
-              className="border border-green px-6 py-3 rounded-lg transition duration-300"
-            >
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="inline-block bg-white text-black font-semibold px-6 py-3 rounded-lg shadow-lg"            >
               Voir mes projets
-            </a>
+            </motion.a>
           </div>
         </div>
 

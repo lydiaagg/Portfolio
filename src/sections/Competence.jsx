@@ -4,10 +4,10 @@ import skillGroups from '../data/competences'
 
 export default function Competence() {
   return (
-    <section id="competences" className="py-24 px-6 md:px-10 bg-white">
+    <section id="competences" className="py-24 px-6 md:px-10 ">
       
       <h2 className="text-4xl font-bold mb-10 text-center">
-        Mes Compétences
+        Mes <span className="text-orange-400" >Compétences</span>
       </h2>
 
       <div className="mb-gap-10  grid md:grid-cols-3 gap-10">

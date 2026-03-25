@@ -48,7 +48,7 @@ export default function Contact() {
       );
   };
   return (
-    <section id="contact" className="text-white py-24">
+    <section id="contact" className="text-white bg-white py-24">
 
       <div className="max-w-6xl mx-auto px-6">
 

@@ -20,7 +20,7 @@ export default function Stats() {
   ];
 
   return (
-    <section id="chiffre-cle" className="bg-white text-white py-24">
+    <section id="chiffre-cle" className="text-white py-24">
 
       <div className="max-w-6xl mx-auto px-6">
 

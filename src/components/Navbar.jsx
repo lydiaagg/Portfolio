@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/global.css";
 import logo from "../assets/logo.svg"; // ajoute ta photo
-import Icon from "./icon";
+import Rowicon from "./Icons/Row";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const links = [
@@ -43,7 +43,7 @@ export default function Navbar() {
                 className="group md:items-center flex items-center gap-2 px-6 py-3 md:py-0 text-white hover:text-sky-400 transition"
               >
                 {link.name}
-                  <Icon />
+                  <Rowicon />
               </a>
             ))}
           </div>

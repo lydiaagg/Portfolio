@@ -1,4 +1,4 @@
-export default function IconCheck() {
+export default function Check() {
   return (
     <span className="flex items-center">
        <svg

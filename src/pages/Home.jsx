@@ -6,6 +6,8 @@ import Stats from "../sections/Stats";
 import Portfolio from "../sections/Portfolio";
 import Parcours from "../sections/Parcours";
 import Contact from "../sections/Contact";
+import Apropos from "../sections/Apropos";
+
 import Seo from "../components/Seo";
 
 export default function Home() {
@@ -20,6 +22,7 @@ export default function Home() {
 
       <Navbar />
       <Hero />
+      <Apropos />
       <Competence />
       <Services />
       <Stats />

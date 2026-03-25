@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import experiences from "../data/experience";
-import IconCheck from "../components/IconCheck";
+import Check from "../components/Icons/check";
 
 
 export default function Parcours() {
   return (
-    <section id="parcours" className="py-24 px-6 bg-white md:px-16 text-white">
+    <section id="parcours" className="py-24 px-6  md:px-16 text-white">
 
       {/* TITLE */}
       <div className="text-center mb-20">
@@ -50,7 +50,7 @@ export default function Parcours() {
 
               <ul className="space-y-2 text-sm text-black">
                 {item.desc.map((d, i) => (
-                  <li key={i}><IconCheck />{d}</li>
+                  <li key={i}><Check />{d}</li>
                 ))}
               </ul>
 

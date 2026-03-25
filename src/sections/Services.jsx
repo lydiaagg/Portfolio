@@ -14,7 +14,7 @@ import services from "../data/services";
 /* COMPONENT */
 export default function ServicesPage() {
   return (
-    <section id="services" className="py-24 px-6 md:px-16 min-h-screen">
+    <section id="services" className="py-24 px-6 md:px-16 bg-white min-h-screen">
 
       {/* HEADER */}
       <div className="text-center mb-20">
@@ -27,7 +27,7 @@ export default function ServicesPage() {
       </div>
 
       {/* GRID */}
-      <div className="grid md:grid-cols-3 mb-gap-10 gap-10 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-3 mb-gap-10 gap-10 max-w-6xl bg-white mx-auto">
 
         {services.map((service, index) => {
           const Icon = service.icon;

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import projects from "../data/portfolio";
-import IconCheck from "../components/IconCheck";
+import Check from "../components/Icons/check";
 
 /* FILTERS */
 const filters = ["All", "Laravel", "React + Nodejs", "Nextjs" ,"WordPress"];
@@ -19,7 +19,7 @@ export default function Portfolio() {
   const handleFilter = (f) => { setActive(f); setCurrentPage(1); }; 
   const handlePageChange = (page) => { setCurrentPage(page); };
   return (
-    <section id="portfolio" className="py-24 px-6 md:px-16">
+    <section id="portfolio" className="bg-white py-24 px-6 md:px-16">
 
       {/* TITLE */}
       <div className="text-center mb-16">
@@ -81,7 +81,7 @@ export default function Portfolio() {
               </p>
                <ul className="text-gray-400 text-sm mb-4">
                 {project.features.map((d, i) => (
-                  <li key={i}><IconCheck />{d}</li>
+                  <li key={i}><Check />{d}</li>
                 ))}
               </ul>
 
