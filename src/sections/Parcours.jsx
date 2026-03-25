@@ -18,7 +18,7 @@ export default function Parcours() {
       </div>
 
       {/* TIMELINE */}
-      <div className="relative mx-auto">
+      <div className="relative max-w-6xl mx-auto">
 
         {/* LINE */}
         <div className="absolute line left-4 md:left-1/2 top-0 bottom-0 w-[2px] bg-[#47ae5a]/40"></div>

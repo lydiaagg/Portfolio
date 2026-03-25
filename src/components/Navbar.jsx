@@ -22,7 +22,7 @@ export default function Navbar() {
         </div>
      </div>
 
-      <div className="flex justify-between  ">
+      <div className="flex justify-between  max-w-6xl mx-auto">
         
        <div className="logo">
         <strong class="">Agguini lydia</strong>

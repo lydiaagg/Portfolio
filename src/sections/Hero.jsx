@@ -12,10 +12,10 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section
-      id="apropos"
+      id="hero"
       className="min-h-screen flex items-center text-white px-6 md:px-10"
     >
-      <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-10">
+      <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-10">
         
         {/* TEXT */}
         <div className="space-y-6  py-24 ">

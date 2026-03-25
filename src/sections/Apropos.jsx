@@ -23,7 +23,7 @@ export default function Apropos() {
   return (
     <section
       id="apropos"
-      className="py-24 px-6 md:px-10 bg-white grid md:grid-cols-2 gap-10 items-center"
+      className="max-w-6xl mx-auto py-24 px-6 md:px-10 bg-white grid md:grid-cols-2 gap-10 items-center"
     >
       {/* TEXTE */}
       <motion.div

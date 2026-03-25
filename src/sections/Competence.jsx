@@ -10,7 +10,7 @@ export default function Competence() {
         Mes <span className="text-orange-400" >Compétences</span>
       </h2>
 
-      <div className="mb-gap-10  grid md:grid-cols-3 gap-10">
+      <div className="mb-gap-10 max-w-6xl mx-auto  grid md:grid-cols-3 gap-10">
 
         {skillGroups.map((group, i) => (
           <motion.div
