@@ -32,7 +32,7 @@ export default function Navbar() {
         {/* MENU */}
         <nav
           className={`absolute md:static mb-menu bg-white top-16 right-0 w-full md:w-auto  md:flex transition-all duration-300 ${
-            menuOpen ? "block" : "hidden"
+            menuOpen ? "flex" : "hidden"
           }`}
         >
           <div className="flex flex-col md:flex-row ">
