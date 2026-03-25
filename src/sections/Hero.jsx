@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center text-white px-6 md:px-10"
+      className="flex items-center text-white px-6 md:px-10"
     >
       <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-10">
         
