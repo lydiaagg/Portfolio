@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/global.css";
 import logo from "../assets/logo.svg"; // ajoute ta photo
-import Rowicon from "./Icons/Row";
+import Rowicon from "./Icons/row";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const links = [
