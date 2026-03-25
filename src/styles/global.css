@@ -492,6 +492,15 @@ header a {
 }
 @media(max-width:767px)
 {
+
+  h1 {
+        font-size: 30px;
+    }
+  h2
+  {
+
+    font-size: 25px;
+  }
   .mb-menu {
     top: 100px;
     width: 155px;
