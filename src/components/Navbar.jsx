@@ -31,7 +31,7 @@ export default function Navbar() {
 
         {/* MENU */}
         <nav
-          className={`absolute md:static top-16 right-0 w-full md:w-auto  md:flex transition-all duration-300 ${
+          className={`absolute md:static bg-white top-16 right-0 w-full md:w-auto  md:flex transition-all duration-300 ${
             menuOpen ? "block" : "hidden"
           }`}
         >
