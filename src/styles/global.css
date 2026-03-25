@@ -490,8 +490,14 @@ header a {
         grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 }
-@media(max-width:600px)
+@media(max-width:767px)
 {
+  .mb-menu {
+    top: 100px;
+
+    width: 155px;
+    justify-content: end;
+}
   h1 {
     font-size: 40px;
 }
@@ -544,10 +550,4 @@ header a {
     align-content: center;
     width: 33%;
 }
-.mb-menu {
-    top: 100px;
 
-    width: 155px;
-    display: flex;
-    justify-content: end;
-}
