@@ -506,6 +506,15 @@ header a {
     width: 155px;
     justify-content: end;
 }
+  .mb-menu a
+  {
+  display: flex; 
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        text-align: right;
+}
   section#apropos .py-24 {
     padding: 40px 0px 0px 0px !important;
 }
