@@ -499,7 +499,7 @@ header a {
   h2
   {
 
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
   .mb-menu {
     top: 100px;
@@ -507,7 +507,7 @@ header a {
     justify-content: end;
 }
   section#apropos .py-24 {
-    padding: 40px 0px !important;
+    padding: 40px 0px 0px 0px !important;
 }
   .scroll-container {
     padding-top: 0px !important;
