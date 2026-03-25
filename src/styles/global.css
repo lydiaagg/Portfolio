@@ -496,6 +496,10 @@ header a {
   h1 {
         font-size: 30px !important;
     }
+  section#hero .py-24
+ {
+    padding: 45px 0px !important;
+}
   h2
   {
 
