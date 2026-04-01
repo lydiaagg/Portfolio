@@ -21,4 +21,4 @@ createRoot(document.getElementById('root')).render(
       <SpeedInsights />
     </HelmetProvider>
   </StrictMode>
-)
+);
