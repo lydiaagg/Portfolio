@@ -6,7 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 import ReactGA from "react-ga4";
 
 // Init Google Analytics
-ReactGA.initialize("G-ZEZ7QDE7ED");
+ReactGA.initialize("G-Q5FMY1S14Z");
 
 // Track pageview
 ReactGA.send({
