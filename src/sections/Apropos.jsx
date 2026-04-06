@@ -38,20 +38,20 @@ export default function Apropos() {
         </h2>
 
         <p className="text-black text-md">
-  Ingénieure logicielle spécialisée dans le développement de systèmes logiciels modernes, je conçois et développe des applications performantes, scalables et orientées utilisateur.
-              </p>
+Développeuse Full Stack spécialisée dans la création d’applications web modernes, performantes et centrées utilisateur. </p>
 
         <p className="text-black text-md">
 
-  Mon expertise couvre l’ingénierie logicielle, l’architecture d’applications, le développement full stack, ainsi que la conception de solutions backend et frontend.
-        </p>
+Je conçois et développe des solutions complètes allant du frontend au backend, en utilisant principalement React, Node.js , Laravel , php et WordPress.</p>
         <p className="text-black text-md">
-
-   Je maîtrise des technologies telles que JavaScript, PHP, Laravel et React ,Nodejs, et je travaille sur la création d’API, la gestion de bases de données et l’optimisation des performances.
+ Développement d’interfaces web modernes (React) 
+ Création d’APIs REST sécurisées (Node.js / Express / Laravel / php) 
+ Développement de sites et fonctionnalités WordPress personnalisées 
+ Conception de dashboards et systèmes de gestion 
+ Optimisation des performances et de l’expérience utilisateur 
         </p>
         <p className="text-black text-md mb-5">
-              Curieuse et passionnée par les nouvelles technologies, je m’oriente également vers la data science et l’intelligence artificielle pour concevoir des solutions innovantes basées sur les données.
-</p>
+Mon objectif est de transformer des idées en produits web fonctionnels, rapides et intuitifs, avec une forte attention portée à l’UX et à la performance.</p>
         <motion.a
           href="#parcours"
           whileHover={{ scale: 1.05 }}
