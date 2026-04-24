@@ -14,6 +14,7 @@ const experiences = [
       "Formation des utilisateurs à la prise en main des applications développées"
     ],
   },
+  {
   title: "Développeur Web Full Stack Freelance",
     date: "01/2025 – Aujourd’hui | Alger",
     type: "experience",
