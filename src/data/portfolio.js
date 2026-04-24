@@ -30,7 +30,7 @@ const projects = [
       "Gestion des candidatures",
       "Consultation des CV",
     ],
-    image: "/projects/recrutement.jpg",
+    image: "/assets/recrutement.jpg",
   },
   {
     title: "Plateforme logistique",
@@ -45,7 +45,7 @@ const projects = [
       "Gestion livreurs et clients",
       "Système d’évaluation",
     ],
-    image: "/projects/logistique.jpg",
+    image: "/assets/logistique.jpg",
   },
   {
     title: "Plateforme d’annonces de véhicules",
@@ -60,7 +60,7 @@ const projects = [
       "Gestion utilisateurs",
       "Contact annonceur",
     ],
-    image: "/projects/Location-Vente-et-Entretien-pieces-de-rechange-vehicules-Hyundai.png",
+    image: "/assets/Location-Vente-et-Entretien-pieces-de-rechange-vehicules-Hyundai.png",
   },
 
   {
@@ -71,17 +71,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/projects/wordpress3.jpg",
-  },
-  {
-    title: "Plateforme industrielle",
-    period: "WordPress",
-    type: "WordPress",
-    category: "WordPress",
-    tech: ["WordPress"],
-    desc: "Réalisé au sein de l’entreprise.",
-    features: [],
-    image: "/projects/wordpress4.jpg",
+    image: "/assets/wordpress3.jpg",
   },
   {
     title: "Plateforme événementielle",
@@ -91,7 +81,7 @@ const projects = [
     tech: ["WordPress", "Elementor"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/projects/Smiled-Events.png",
+    image: "/assets/Smiled-Events.png",
   },
   {
     title: "Plateforme automobile",
@@ -101,7 +91,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/projects/Auto-lumiere.png",
+    image: "/assets/Auto-lumiere.png",
   },
   {
     title: "Plateforme digitale",
@@ -111,27 +101,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/projects/Marketing-Digital-Sites-Web-Reseaux-Sociaux-Publicite-Display.png",
-  },
-  {
-    title: "Plateforme e-commerce textile",
-    period: "WordPress",
-    type: "WordPress",
-    category: "WordPress",
-    tech: ["WordPress", "WooCommerce"],
-    desc: "Réalisé au sein de l’entreprise.",
-    features: [],
-    image: "/projects/wordpress12.jpg",
-  },
-  {
-    title: "Plateforme e-commerce cosmétique",
-    period: "WordPress",
-    type: "WordPress",
-    category: "WordPress",
-    tech: ["WordPress", "WooCommerce"],
-    desc: "Réalisé au sein de l’entreprise.",
-    features: [],
-    image: "/projects/wordpress12.jpg",
+    image: "/assets/Marketing-Digital-Sites-Web-Reseaux-Sociaux-Publicite-Display.png",
   },
   {
     title: "Plateforme Pour laboratoire",
@@ -141,7 +111,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/projects/Dareldjazairia.png",
+    image: "/assets/Dareldjazairia.png",
   }
 ];
 
