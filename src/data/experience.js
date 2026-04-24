@@ -14,6 +14,19 @@ const experiences = [
       "Formation des utilisateurs à la prise en main des applications développées"
     ],
   },
+  title: "Développeur Web Full Stack Freelance",
+    date: "01/2025 – Aujourd’hui | Alger",
+    type: "experience",
+    desc: [
+      "Développement de sites web vitrines, e-commerce et plateformes sur mesure",
+      "Création de solutions web avec WordPress, WooCommerce, Laravel et JavaScript",
+      "Analyse des besoins clients et proposition de solutions techniques adaptées",
+      "Développement front-end et back-end responsive",
+      "Intégration, maintenance et optimisation des performances",
+      "Gestion de projets web de la conception à la mise en ligne",
+      "Support technique et accompagnement client"
+    ],
+  },
   {
     title: "Master (Bac +5), Informatique Ingénierie des logiciels informatique Université des sciences et de la technologie (USTHB)",
     date: "2019 – 2021 | Alger",
