@@ -1,3 +1,15 @@
+/* IMPORT IMAGES */
+import laravel1 from "../assets/laravel1.jpg";
+import recrutement from "../assets/recrutement.jpg";
+import logistique from "../assets/logistique.jpg";
+import hyundai from "../assets/Location-Vente-et-Entretien-pieces-de-rechange-vehicules-Hyundai.png";
+
+import wordpress3 from "../assets/wordpress3.jpg";
+import smilmed from "../assets/Smiled-Events.png";
+import autolumiere from "../assets/Auto-lumiere.png";
+import marketing from "../assets/Marketing-Digital-Sites-Web-Reseaux-Sociaux-Publicite-Display.png";
+import laboratoire from "../assets/Dareldjazairia.png";
+
 /* PROJECTS */
 const projects = [
   {
@@ -15,7 +27,7 @@ const projects = [
       "Gestion des rôles",
       "Historisation des actions",
     ],
-    image: "/projects/laravel1.jpg",
+    image: laravel1,
   },
   {
     title: "Plateforme de recrutement en ligne",
@@ -30,7 +42,7 @@ const projects = [
       "Gestion des candidatures",
       "Consultation des CV",
     ],
-    image: "/assets/recrutement.jpg",
+    image: recrutement,
   },
   {
     title: "Plateforme logistique",
@@ -45,7 +57,7 @@ const projects = [
       "Gestion livreurs et clients",
       "Système d’évaluation",
     ],
-    image: "/assets/logistique.jpg",
+    image: logistique,
   },
   {
     title: "Plateforme d’annonces de véhicules",
@@ -60,7 +72,7 @@ const projects = [
       "Gestion utilisateurs",
       "Contact annonceur",
     ],
-    image: "../assets/Location-Vente-et-Entretien-pieces-de-rechange-vehicules-Hyundai.png",
+    image: hyundai,
   },
 
   {
@@ -71,7 +83,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "../assets/wordpress3.jpg",
+    image: wordpress3,
   },
   {
     title: "Plateforme événementielle",
@@ -81,7 +93,7 @@ const projects = [
     tech: ["WordPress", "Elementor"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "../assets/Smiled-Events.png",
+    image: smilmed,
   },
   {
     title: "Plateforme automobile",
@@ -91,7 +103,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "../assets/Auto-lumiere.png",
+    image: autolumiere,
   },
   {
     title: "Plateforme digitale",
@@ -101,17 +113,17 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "../assets/Marketing-Digital-Sites-Web-Reseaux-Sociaux-Publicite-Display.png",
+    image: marketing,
   },
   {
-    title: "Plateforme Pour laboratoire",
+    title: "Plateforme pour laboratoire",
     period: "WordPress",
     type: "WordPress",
     category: "WordPress",
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "../assets/Dareldjazairia.png",
+    image: laboratoire,
   }
 ];
 
