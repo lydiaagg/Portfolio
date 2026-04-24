@@ -60,7 +60,7 @@ const projects = [
       "Gestion utilisateurs",
       "Contact annonceur",
     ],
-    image: "/assets/Location-Vente-et-Entretien-pieces-de-rechange-vehicules-Hyundai.png",
+    image: "../assets/Location-Vente-et-Entretien-pieces-de-rechange-vehicules-Hyundai.png",
   },
 
   {
@@ -71,7 +71,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/assets/wordpress3.jpg",
+    image: "../assets/wordpress3.jpg",
   },
   {
     title: "Plateforme événementielle",
@@ -81,7 +81,7 @@ const projects = [
     tech: ["WordPress", "Elementor"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/assets/Smiled-Events.png",
+    image: "../assets/Smiled-Events.png",
   },
   {
     title: "Plateforme automobile",
@@ -91,7 +91,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/assets/Auto-lumiere.png",
+    image: "../assets/Auto-lumiere.png",
   },
   {
     title: "Plateforme digitale",
@@ -101,7 +101,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/assets/Marketing-Digital-Sites-Web-Reseaux-Sociaux-Publicite-Display.png",
+    image: "../assets/Marketing-Digital-Sites-Web-Reseaux-Sociaux-Publicite-Display.png",
   },
   {
     title: "Plateforme Pour laboratoire",
@@ -111,7 +111,7 @@ const projects = [
     tech: ["WordPress"],
     desc: "Réalisé au sein de l’entreprise.",
     features: [],
-    image: "/assets/Dareldjazairia.png",
+    image: "../assets/Dareldjazairia.png",
   }
 ];
 
