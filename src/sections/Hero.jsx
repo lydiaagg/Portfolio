@@ -21,13 +21,11 @@ export default function Hero() {
         <div className="space-y-6  py-24 ">
           <div className="absolute w-72 h-72 bg-sky-500 opacity-20 blur-3xl rounded-full"></div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Full Stack Web Developer | React, Node.js, Laravel ,WordPress | Création d’applications web modernes, dashboards & APIs performantes<span className="text-green"> IA & Automatisation</span>
+            Full Stack Web Developer | React, Node.js, Laravel ,WordPress | <span className="text-green"> IA & Automatisation</span>
           </h1>
 
           <p className="text-black text-md leading-relaxed">
-            Conception et programmation d’applications interactives,
-            comme des plateformes de réservation, des marketplaces
-            ou des réseaux sociaux.
+            Création d’applications web modernes, dashboards & APIs performantes
           </p>
 
           <div className="flex gap-4">
