@@ -1,6 +1,6 @@
 const experiences = [
   {
-    title: "Développeur Web Full Stack — KDconcept",
+    title: "Développeur Web Full Stack — Alcomnet",
     date: "03/2022 – Aujourd’hui | Alger",
     type: "experience",
     desc: [
